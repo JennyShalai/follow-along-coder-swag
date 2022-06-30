@@ -16,6 +16,7 @@
 		BAACCA85286CDDFA00FCFA43 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACCA84286CDDFA00FCFA43 /* CategoryCell.swift */; };
 		BAACCA87286D2CEC00FCFA43 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACCA86286D2CEC00FCFA43 /* DataService.swift */; };
 		BAACCA89286D2D8300FCFA43 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACCA88286D2D8300FCFA43 /* Category.swift */; };
+		BAACCA8B286E21AE00FCFA43 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACCA8A286E21AE00FCFA43 /* ProductCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		BAACCA84286CDDFA00FCFA43 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		BAACCA86286D2CEC00FCFA43 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		BAACCA88286D2D8300FCFA43 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		BAACCA8A286E21AE00FCFA43 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				BAACCA70286C771D00FCFA43 /* AppDelegate.swift */,
+				BAACCA8A286E21AE00FCFA43 /* ProductCell.swift */,
 				BAACCA72286C771D00FCFA43 /* SceneDelegate.swift */,
 				BAACCA74286C771D00FCFA43 /* CategoriesViewController.swift */,
 				BAACCA86286D2CEC00FCFA43 /* DataService.swift */,
@@ -152,6 +155,7 @@
 				BAACCA73286C771D00FCFA43 /* SceneDelegate.swift in Sources */,
 				BAACCA85286CDDFA00FCFA43 /* CategoryCell.swift in Sources */,
 				BAACCA87286D2CEC00FCFA43 /* DataService.swift in Sources */,
+				BAACCA8B286E21AE00FCFA43 /* ProductCell.swift in Sources */,
 				BAACCA89286D2D8300FCFA43 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,8 +9,8 @@ import Foundation
 import UIKit
 class Category {
     
-    let categoryTitle: String
-    let categoryImage: String
+    private(set) var categoryTitle: String
+    private(set) var categoryImage: String
     
     init(title: String, image: String) {
         self.categoryTitle = title
