@@ -82,10 +82,10 @@
             </objects>
             <point key="canvasLocation" x="1855.072463768116" y="97.767857142857139"/>
         </scene>
-        <!--View Controller-->
+        <!--Product View Controller-->
         <scene sceneID="hd0-ex-A3r">
             <objects>
-                <viewController id="3Rk-tX-1GT" sceneMemberID="viewController">
+                <viewController id="3Rk-tX-1GT" customClass="ProductViewController" customModule="follow_along_coder_swag" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Taz-UR-nO7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -106,7 +106,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="o96-wn-LID" customClass="ProductCell" customModule="follow_along_coder_swag" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProductCell" id="o96-wn-LID" customClass="ProductCell" customModule="follow_along_coder_swag" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="175" height="252"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="zyn-5L-0DU">
@@ -165,6 +165,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="fA0-Lu-ClX"/>
+                    <connections>
+                        <outlet property="productsCollection" destination="BNS-X3-Zx7" id="8mQ-h1-Kdq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rk8-1I-Agz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
