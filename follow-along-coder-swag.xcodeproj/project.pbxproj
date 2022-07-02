@@ -17,6 +17,7 @@
 		BAACCA87286D2CEC00FCFA43 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACCA86286D2CEC00FCFA43 /* DataService.swift */; };
 		BAACCA89286D2D8300FCFA43 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACCA88286D2D8300FCFA43 /* Category.swift */; };
 		BAACCA8B286E21AE00FCFA43 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACCA8A286E21AE00FCFA43 /* ProductCell.swift */; };
+		BAACCA8D286E326D00FCFA43 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACCA8C286E326D00FCFA43 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		BAACCA86286D2CEC00FCFA43 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		BAACCA88286D2D8300FCFA43 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		BAACCA8A286E21AE00FCFA43 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		BAACCA8C286E326D00FCFA43 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				BAACCA74286C771D00FCFA43 /* CategoriesViewController.swift */,
 				BAACCA86286D2CEC00FCFA43 /* DataService.swift */,
 				BAACCA88286D2D8300FCFA43 /* Category.swift */,
+				BAACCA8C286E326D00FCFA43 /* Product.swift */,
 				BAACCA84286CDDFA00FCFA43 /* CategoryCell.swift */,
 				BAACCA76286C771D00FCFA43 /* Main.storyboard */,
 				BAACCA79286C772800FCFA43 /* Assets.xcassets */,
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAACCA75286C771D00FCFA43 /* CategoriesViewController.swift in Sources */,
+				BAACCA8D286E326D00FCFA43 /* Product.swift in Sources */,
 				BAACCA71286C771D00FCFA43 /* AppDelegate.swift in Sources */,
 				BAACCA73286C771D00FCFA43 /* SceneDelegate.swift in Sources */,
 				BAACCA85286CDDFA00FCFA43 /* CategoryCell.swift in Sources */,

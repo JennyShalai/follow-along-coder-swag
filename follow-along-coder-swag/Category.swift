@@ -6,8 +6,8 @@
 //
 
 import Foundation
-import UIKit
-class Category {
+
+struct Category {
     
     private(set) var categoryTitle: String
     private(set) var categoryImage: String
