@@ -24,11 +24,12 @@ class ProductViewController: UIViewController, UICollectionViewDelegate, UIColle
     
     func initProducts(withCategory category: Category) {
         products = DataService.dataService.getProduct(byTitle: category.categoryTitle)
+        navigationItem.title = category.categoryTitle
         
     }
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 1
+        return products.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
