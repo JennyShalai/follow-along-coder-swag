@@ -75,7 +75,7 @@
                     <navigationItem key="navigationItem" title="CODERSWAG" id="0EP-DR-U3X"/>
                     <connections>
                         <outlet property="categotyTable" destination="Hxd-2m-rVl" id="Tyy-To-BI0"/>
-                        <segue destination="3Rk-tX-1GT" kind="show" id="Hpk-eq-i3H"/>
+                        <segue destination="3Rk-tX-1GT" kind="show" identifier="ProductsVC" id="Hpk-eq-i3H"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
